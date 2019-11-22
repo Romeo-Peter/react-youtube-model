@@ -1,0 +1,17 @@
+[33mcommit 07f56b077106adf732fbd9d01e5627645f35dfc5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Romeo <romeomeshack34@gmail.com>
+Date:   Fri Nov 15 21:31:38 2019 +0100
+
+    Controlled input through React 'state'
+
+[33mcommit 6c09828daf5300670dfd64daca44610fbb01ad9c[m
+Author: Romeo <romeomeshack34@gmail.com>
+Date:   Fri Nov 15 14:29:23 2019 +0100
+
+    App components
+
+[33mcommit 8b2769ceb97be228bf0050b99065983e134922d6[m
+Author: Romeo <romeomeshack34@gmail.com>
+Date:   Tue Nov 12 18:49:13 2019 +0100
+
+    Initial template setup

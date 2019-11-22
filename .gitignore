@@ -19,6 +19,9 @@ bundle.js
 npm-debug.log
 .DS_Store
 README.md
+React-summary.txt
+app-sketch/
+src/api-key
 
 *.sublime*
 
