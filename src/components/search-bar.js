@@ -4,18 +4,22 @@ class SearchBar extends Component {
     constructor(props) {
         super(props);
 
-        this.state = {SearchTerm: 'starting value'};
+        this.state = {SearchTerm: ''};
     }
 
     render() {
 
         return(
-            <div> 
-                <input
-                value = {this.state.SearchTerm} 
-                onChange={(e) => this.setState({ SearchTerm: e.target.value} )} />
+            <div className="form-group"> 
+                <input className="form-control mt-3" value = {this.state.SearchTerm} 
+                onChange={(e) => this.onInputChange(e.target.value)} />
             </div>
         )
+    }
+
+    onInputChange(term) {
+        this.setState({ SearchTerm: term});
+        this.props.onSearchTermChange(term);
     }
 }
 export default SearchBar;
